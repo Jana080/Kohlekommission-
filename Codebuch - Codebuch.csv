@@ -1,0 +1,37 @@
+CODEBUCH,
+,
+Wert,Kommentar
+edgelist,
+from,"ID des Akteurs, i.d.R. Nachname"
+to ,Zugehörigkeit der Mitglieder zu gesellschaftlichen Gruppen (Stakeholdergruppe)
+weight,"Definieren Sie als weight den vermuteten Einfluss in der Kommission oder der Partei
+
+1 = ohne Stimmrecht / ehemaliges Mandat, Parteimitglied 
+2 = Stimmrecht / aktives Mandat
+3 = Vorsitzende / aktives Mandat oder Ministeramt"
+,
+,
+nodelist,
+id,ID aller Akteure aus der Edgelist (richtig geschrieben!)
+name,Nachname von Personen oder Bezeichnung von Organisationen
+sex,"Geschlecht, bei Organisationen NA
+"
+type," 0 = Person, 1 = Organisation
+"
+party,Parteizugehörigkeit wie oben (im Sinne von Besitz eines Parteibuchs auch ohne aktives Amt)
+age,"Alter in Lebensjahren, bei Organisationen NA. Bitte achten Sie darauf, das Alter in sinnvolle Abschnitte ordinal zu codieren (also nicht absolute Zahlen, sondern z.B. 1 = bis 39, 2=40-49, etc.)"
+,
+edgelist Zugabe ,
+1 = Politik,
+2 = Verband (Industrie),
+3 = Gewerkschaft,
+4 = Umweltschutz (Verband/NGO/Initiative),
+5 = Industrie (Unternehmen aller Art außer Energieunternehmen),
+"6 = Energieunternehmen (Kohle, Strom, Gas, Wasser)",
+"7 = Wissenschaft (Universitäten, Forschungszentren, Institute)",
+8 = Regionalvertreter (auch Wählerverbünde),
+9 = CDU,
+10 = CSU,
+11 = SPD,
+12 = Gruene,
+"NA für alles, was nicht zutrifft.",
